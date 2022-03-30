@@ -1,9 +1,13 @@
 from distutils.version import Version
 from setuptools import setup, find_packages
+from apiKey import key
+
+#read api key
+
 
 #example
 import spoonacular as sp
-api = sp.API("0d267ca4d1e149f58e3164a5ce2dbd59")
+api = sp.API(key)
 
 # Parse an ingredient
 response = api.parse_ingredients("3.5 cups King Arthur flour", servings=1)

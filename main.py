@@ -22,9 +22,33 @@ user_input = input("Please enter 'full', 'list', 'recipes', or 'ingredients': ")
 if user_input == "full":
     print("Please enter the name of the recipe you would like to see: ")
     recipe_name = input()
-    print()
+    print("Searching for recipe... with " + recipe_name)
     
-    
+# if user is 'list'
+elif user_input == "list":
+    print("Please enter the name of the ingredient you would like to see: ")
+    ingredient_name = input()
+    print("Searching for ingredients... with " + ingredient_name)
+
+# if user is 'recipes'
+elif user_input == "recipes":
+    print("Please enter the name of the ingredient you would like to see: ")
+    ingredient_name = input()
+    print("Searching for recipes... with " + ingredient_name)
+
+# if user is 'ingredients'
+elif user_input == "ingredients":
+    print("Please enter the name of the recipe you would like to see: ")
+    recipe_name = input()
+    print("Searching for ingredients... with " + recipe_name)
+
+
+# Print error message
+else:
+    print("Not a valid input. Please try again.")
+
+
+#random example code (not used) - just showing how to use the API from their website/ReadMe
 
 # Parse an ingredient
 response = api.parse_ingredients("3.5 cups King Arthur flour", servings=1)

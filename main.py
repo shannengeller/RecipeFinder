@@ -42,7 +42,6 @@ elif user_input == "ingredients":
     recipe_name = input()
     print("Searching for ingredients... with " + recipe_name)
 
-
 # Print error message
 else:
     print("Not a valid input. Please try again.")

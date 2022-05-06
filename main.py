@@ -37,7 +37,7 @@ while user_input != "e" or "E":
             print(api_response)
         else:
             api_response = api_instance.autocomplete_ingredient_search(query=recipe_name_query, intolerances=intol_allergy)
-            print("Searching for recipe... with " + recipe_name_query + " and has " + intol_allergy + "(allergy or intolerance")
+            print("Searching for recipe... with " + recipe_name_query + " and has " + intol_allergy + "(allergy or intolerance)")
             print(api_response)
     
 # if user is 'list'

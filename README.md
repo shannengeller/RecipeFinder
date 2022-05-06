@@ -5,3 +5,8 @@ Finding Recipes based on user input (either by typing in ingredients or typing i
 
 Saves to a Text document if they chose to!
 
+To download Spoonacular: 
+
+    pip import spoonacular 
+
+- Also Available on github to host!

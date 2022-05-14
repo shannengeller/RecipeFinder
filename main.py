@@ -70,8 +70,6 @@ def save_recipes():
     
     return 
 
-
-
 #random example code (not used) - just showing how to use the API from their website/ReadMe
 
 # Parse an ingredient
